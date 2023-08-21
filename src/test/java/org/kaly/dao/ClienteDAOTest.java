@@ -17,7 +17,7 @@ class ClienteDAOTest {
 
         Cliente cliente = new Cliente();
         cliente.setCodigo("10");
-        cliente.setNome("Rodrigo Pires");
+        cliente.setNome("Kalyana Mehl");
         Integer countCad = clienteDAO.cadastrar(cliente);
         assertTrue(countCad == 1);
 
@@ -36,7 +36,7 @@ class ClienteDAOTest {
 
         Cliente cliente = new Cliente();
         cliente.setCodigo("10");
-        cliente.setNome("Rodrigo Pires");
+        cliente.setNome("Kalyana Mehl");
         Integer countCad = clienteDAO.cadastrar(cliente);
         assertTrue(countCad == 1);
 
@@ -55,7 +55,7 @@ class ClienteDAOTest {
 
         Cliente cliente = new Cliente();
         cliente.setCodigo("10");
-        cliente.setNome("Rodrigo Pires");
+        cliente.setNome("Kalyana Mehl");
         Integer countCad = clienteDAO.cadastrar(cliente);
         assertTrue(countCad == 1);
 
@@ -74,7 +74,7 @@ class ClienteDAOTest {
 
         Cliente cliente = new Cliente();
         cliente.setCodigo("10");
-        cliente.setNome("Rodrigo Pires");
+        cliente.setNome("Kalyana Mehl");
         Integer countCad = clienteDAO.cadastrar(cliente);
         assertTrue(countCad == 1);
 
@@ -106,7 +106,7 @@ class ClienteDAOTest {
 
         Cliente cliente = new Cliente();
         cliente.setCodigo("10");
-        cliente.setNome("Rodrigo Pires");
+        cliente.setNome("Kalyana Mehl");
         Integer countCad = clienteDAO.cadastrar(cliente);
         assertTrue(countCad == 1);
 
